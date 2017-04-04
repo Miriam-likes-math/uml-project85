@@ -1,0 +1,16 @@
+MESSAGE
+
+-text: String
+-date: String
+-time: String
+
++setText(t: String): void
++getText(): String
++setDate(d: String): void
++getDate(): String
++setTime(t: String): void
++getTime(): String
+
+Forum has a Composition relationship with Message. Forum has a multiplicity of 1. Message has a multiplicity of 1 to infinity.
+Member has an Aggregation relationship with Message. Member has a multiplicity of 1. Message has a multiplicity of 0 to infinity.
+Message has an Inheritance relationship with NewThread. NewThread "is a" Message.
