@@ -1,0 +1,10 @@
+THREAD
+
+-title: String
+
++setTitle(t: String): void
++getTitle(): String
+
+Thread has a Composition relationship with Message. Thread is composed of 1 or more Messages, and each Message belongs to exactly one Thread.
+Forum has a Composition relationship with Thread. Forum has a multiplicity of 1. Thread has a multiplicity expressed by 1..*.
+Member has an Aggregation relationship with Thread. Member has a multiplicity of 1. Thread has a multiplicity expressed by *.

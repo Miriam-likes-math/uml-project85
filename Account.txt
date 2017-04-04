@@ -1,0 +1,5 @@
+ACCOUNT
+
+-title: String
+
+Account is an Aggregation of Memberships, containing 0 or more Memberships.
