@@ -1,10 +1,8 @@
 FORUM
 
 -title: String
--link: String
 
 +getTitle(): String
-+getLink(): String
 
 Website has a Composition relationship with Forum. Website has a multiplicity of 1. Forum has a multiplicity of 1 to infinity.
 Owner has an Aggregation relationship with Forum. Owner has a multiplicity of 1. Forum has a multiplicity of 1. (?)

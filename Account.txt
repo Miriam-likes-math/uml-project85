@@ -2,4 +2,14 @@ ACCOUNT
 
 -title: String
 
++newForum(first: Message,name: String): Forum
++joinForum(f: Forum): void
++leaveForum(f: Forum): void
++readInvitations(): void
++acceptInvitation(i: Invitation): void
++denyInvitation(i: Invitation): void
++invite(name: String,info: Forum,owner: boolean): void
+
 Account is an Aggregation of Memberships, containing 0 or more Memberships.
+Website aggregates Accounts, the single website containing 0 or more Accounts.
+Account is an Aggregation of Invitations, containing 0 or more invitations.

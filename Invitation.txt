@@ -1,0 +1,6 @@
+INVITATION
+
+-infor: Forum
+-pos: boolean
+
+In Aggregation relationship with Account
