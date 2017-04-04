@@ -1,0 +1,22 @@
+MEMBER
+
+-username: String
+-password: String
+-email: String
+
++setUsername(u: String): void
++getUsername(): String
++setPassword(pw: String): void
++getPassword(): String
++setEmail(e: String): void
++getEmail(): String
++postMessage(p: Message): void
++readMessage(r: Message): void
++joinForum(f: Forum): void
++leaveForum(f: Forum): void
+
+Forum has an Aggregatation relationship with Member. Forum has a multiplicity of 1 to infinity. Member has a multiplicity of 1 to infinity.
+Member has an Aggregation relationship with Message. Member has a multiplicity of 1. Message has a multiplicity of 0 to infinity.
+Member has an Inheritance relationship to Owner. Owner "is a" Member.
+Member has an Inheritance relationship to Moderator. Moderator "is a" Member
+

@@ -1,0 +1,13 @@
+WEBSITE
+
+-title: String
+-address: String
+
++setTitle(s: String): void
++getTitle(): String
++setAddress(s: String): void
++getAddress(): String
+
+Website has a Composition relationship with Member. The multiplicity of Website is 1. The multiplicity of Member is 1 to infinity.
+Website has a Composition relationship with Forum. The multiplicity of Website is 1. The multiplicity of Forum is 1 to infinity.
+
