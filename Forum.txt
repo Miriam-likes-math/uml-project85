@@ -1,0 +1,18 @@
+FORUM
+
+-title: String
+-link: String
+
++setTitle(s: String): void
++getTitle(): String
++setLink(s: String): void
++getLink(): String
+
+Forum has an Aggregatation relationship with Member. Forum has a multiplicity of 1 to infinity. Member has a multiplicity of 1 to infinity.
+Website has a Composition relationship with Forum. Website has a multiplicity of 1. Forum has a multiplicity of 1 to infinity.
+Owner has an Aggregation relationship with Forum. Owner has a multiplicity of 1. Forum has a multiplicity of 1. (?)
+Moderator has an Aggregation relationship with Forum. Moderator has a multiplicity of 1. Forum has a multiplicity of 1. (?)
+Forum has a Composition relationship with Message. Forum has a multiplicity of 1. Message has a multiplicity of 1 to infinity.
+
+
+
