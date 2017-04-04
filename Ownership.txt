@@ -1,8 +1,8 @@
 OWNERSHIP
 
--infor: Forum
++infor: Forum
 
-+deleteForum(): void
+-deleteForum(): void
 
 Ownership extends Membership.
 Ownership is aggregated by Account.

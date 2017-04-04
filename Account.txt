@@ -1,6 +1,7 @@
 ACCOUNT
 
--title: String
++title: String
++email: String
 
 +newForum(first: Message,name: String): Forum
 +joinForum(f: Forum): void

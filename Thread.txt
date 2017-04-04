@@ -1,6 +1,10 @@
 THREAD
 
--title: String
+in Mod package
+
++title: String
+~unconfirmed: Messages
++confirmed: Messages
 
 +setTitle(t: String): void
 +getTitle(): String

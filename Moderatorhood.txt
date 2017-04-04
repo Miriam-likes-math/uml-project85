@@ -1,0 +1,10 @@
+MODERATORHOOD
+
++infor: Forum
+
+-readUnmoderatedMessages() void
+-approve(Message i): void
+-deny(m: Message): void
+
+One to one relationship with Forum
+Aggregated by Account

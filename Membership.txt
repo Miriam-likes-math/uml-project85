@@ -1,6 +1,6 @@
 MEMBERSHIP
 
--infor: Forum
++infor: Forum
 
 +postMessage(p: Message,t: Thread): void
 +readForum(): void
@@ -8,9 +8,9 @@ MEMBERSHIP
 +readForum(c: Comparator<Message>): void
 +readForum(p: Predicate<Message>,c: Comparator<Message>): void
 
-Member is in an Aggregation relationship with Account, Member being the aggregated item, with multiplicity at least 0.
-Forum has an Composition relationship with Member. Forum has a multiplicity of 1. Member has a multiplicity of 1 to infinity.
-Member has an Aggregation relationship with Message. Member has a multiplicity of 1. Message has a multiplicity of 0 to infinity.
-Member has an Inheritance relationship to Owner. Owner "is a" Member.
-Member has an Inheritance relationship to Moderator. Moderator "is a" Member
+Membership is in an Aggregation relationship with Account, Membership being the aggregated item, with multiplicity at least 0.
+Forum has an Composition relationship with Membership. Forum has a multiplicity of 1. Membership has a multiplicity of 1 to infinity.
+Membership has an Aggregation relationship with Message. Membership has a multiplicity of 1. Message has a multiplicity of 0 to infinity.
+Membership has an Inheritance relationship to Owner. Ownership "is a" Membership.
+Membership has an Inheritance relationship to Moderatorhood. Moderatorhood "is a" Membership
 

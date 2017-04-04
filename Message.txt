@@ -1,8 +1,8 @@
 MESSAGE
 
--text: String
--date: String
--time: String
++text: String
++date: String
++time: String
 
 +getText(): String
 +getDate(): String
