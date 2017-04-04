@@ -9,6 +9,7 @@ ACCOUNT
 +acceptInvitation(i: Invitation): void
 +denyInvitation(i: Invitation): void
 +invite(name: String,info: Forum,owner: boolean): void
++getMemberships(): Memberships
 
 Account is an Aggregation of Memberships, containing 0 or more Memberships.
 Website aggregates Accounts, the single website containing 0 or more Accounts.

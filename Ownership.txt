@@ -1,0 +1,8 @@
+OWNERSHIP
+
+-infor: Forum
+
++deleteForum(): void
+
+Ownership extends Membership.
+Ownership is aggregated by Account.
