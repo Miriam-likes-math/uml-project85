@@ -1,16 +1,7 @@
 MEMBERSHIP
 
--username: String
--password: String
--email: String
 -infor: Forum
 
-+setUsername(u: String): void
-+getUsername(): String
-+setPassword(pw: String): void
-+getPassword(): String
-+setEmail(e: String): void
-+getEmail(): String
 +postMessage(p: Message,t: Thread): void
 +newForum(first: Message,name: String): Forum
 +readForum(): void
@@ -18,6 +9,7 @@ MEMBERSHIP
 +joinForum(f: Forum): void
 +leaveForum(f: Forum): void
 
+Member is in an Aggregation relationship with Account, Member being the aggregated item, with multiplicity at least 0.
 Forum has an Composition relationship with Member. Forum has a multiplicity of 1. Member has a multiplicity of 1 to infinity.
 Member has an Aggregation relationship with Message. Member has a multiplicity of 1. Message has a multiplicity of 0 to infinity.
 Member has an Inheritance relationship to Owner. Owner "is a" Member.
