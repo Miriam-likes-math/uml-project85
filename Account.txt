@@ -1,6 +1,6 @@
 ACCOUNT
 
-+title: String
++name: String
 +email: String
 
 +newForum(first: Message,name: String): Forum
