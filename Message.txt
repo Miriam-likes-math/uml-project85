@@ -4,6 +4,7 @@ MESSAGE
 +date: String
 +time: String
 
++editText(t: String): void
 +getText(): String
 +getDate(): String
 +getTime(): String

@@ -7,6 +7,8 @@ MEMBERSHIP
 +readForum(p: Predicate<Message>): void
 +readForum(c: Comparator<Message>): void
 +readForum(p: Predicate<Message>,c: Comparator<Message>): void
++createForum(title: String): void
+
 
 Membership is in an Aggregation relationship with Account, Membership being the aggregated item, with multiplicity at least 0.
 Forum has an Composition relationship with Membership. Forum has a multiplicity of 1. Membership has a multiplicity of 1 to infinity.
