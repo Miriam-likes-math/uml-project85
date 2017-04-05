@@ -3,4 +3,7 @@ INVITATION
 -infor: Forum
 -pos: boolean
 
++getPos(): String
++getForum(): Forum
+
 In Aggregation relationship with Account
